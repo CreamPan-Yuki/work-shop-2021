@@ -1,0 +1,188 @@
+body {
+    padding: 0;
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 2;
+    background-color: #AFEEEE;
+    }
+
+ul {margin: 0 10px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
+    color: #00bfff;
+    -webkit-text-stroke: 1px #000000;
+    text-shadow: black 2px 2px 2px;
+}
+
+
+a:visted {color: #00bfff;}
+
+a:hover {color: #00ffff;}
+
+header {
+     width: 960px;
+     height: 0px;
+     margin: 10px auto;
+}
+
+.menu {float: right;
+}
+
+.menu li {
+    float: left;
+    margin: 0px 20px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.menuf {float: left;
+}
+
+.menuf li {
+    float: left;
+    margin: 0px 20px;
+    font-size: 20px;
+    list-style: none;
+}
+
+
+#six {
+    clear: both;
+    background-color: #ffffff;
+    padding: 20px o;
+}
+
+.main-center {
+    width: 940px;
+    margin: 0 auto;
+}
+
+h1 {font-size: 30px;
+    border-bottom: 1px solid #cccccc;
+}
+    
+h2 {
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+h3 {
+    font-size: 12px;
+    margin: 0px auto 0px; 
+}
+
+span {font-size: 15px;}
+
+footer {
+    width: 960px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#hobby .sixppp li {
+         float: left;
+         list-style: none;
+         margin: 0px 3px 8px 3px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.tex5 {
+    width: 500px;
+    margin: 5px;
+}
+
+.tex45 {
+    width: 450px;
+    margin: 5px
+}
+
+
+.tex35 {
+    width: 350px;
+    margin: 5px
+}
+
+.hr {
+    float: right;
+    margin: 5px;
+}
+
+.hl {
+    float: left;
+    margin: 5px
+}
+
+.rb2 {margin: -40px 5px 5px;}
+
+.hy2 {margin: 15px 0px;}
+
+.e123 {margin: 20px 0px 0px;}
+
+
+
+.topicpath li {
+    float: left;
+    margin: 0px 2px;
+    font-size: 12px;
+    list-style: none;
+}
+
+#pan .topicpath li a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+    -webkit-text-stroke: 0px #000000;
+    text-shadow: black 0px 0px 0px;
+}
+
+.topicpath {margin: -20px 0px;}
+
+.cap {float: right;}
+
+.xxx {
+    margin: 5px 0px;
+}
+
+
+.figure {
+	width: 300px;
+	height:	225px;
+    background: #000000;
+	position: relative;
+}
+
+.figure:hover img {
+    opacity: 0.5;
+} 
+
+.figure .ftex {
+	font-size: 150%;
+	text-align: center;
+	padding-top: 80px;
+	color: #ffffff;
+}
+.figure .fbox {
+	width: 100%;
+	height:	100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+ 
+.figure .fbox:hover {
+	opacity: 1;
+}
